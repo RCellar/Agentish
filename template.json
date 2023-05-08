@@ -1,0 +1,72 @@
+{
+    "Title": "",
+    "Action": "",
+    "ScriptPath": "",
+    "TriggerType": {
+        "Daily": [{
+            "StartTime": "",
+            "DaysInterval": "1",
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "RandomDelay": ""
+        }],
+        "Weekly": [{
+            "StartTime": "4",
+            "Day": "Monday",
+            "WeeksInterval": "1",
+            "Duration": "",
+            "Repetition": "4H",
+            "ExecutionTimeLimit": "8",
+            "RandomDelay": "9"
+        }],
+        "Once": [{
+            "StartTime": "",
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "RandomDelay": ""
+        }],
+        "OnLock": [{
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "Delay": ""
+        }],
+        "OnUnlock": [{
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "Delay": ""
+        }],
+        "AtStartup": [{
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "RandomDelay": ""
+        }],
+        "OnEvent": [{
+            "EventProvider": "",
+            "EventID": "",
+            "LogClass": "",
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "Delay": ""
+        }],
+        "AtLogon": [{
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "RandomDelay": ""
+        }],
+        "AtLogoff": [{
+            "Duration": "",
+            "Repetition": "",
+            "ExecutionTimeLimit": "",
+            "RandomDelay": ""
+        }]
+    },
+    "pwsh": false,
+    "disabled": false
+}
